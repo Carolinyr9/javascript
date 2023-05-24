@@ -23,7 +23,7 @@ function inLista(n, l) {
 
 }*/
 
-function adicionar (){
+function adicionar(){
     if(num.value > 0) {
         alert('Tudo ok')
 
