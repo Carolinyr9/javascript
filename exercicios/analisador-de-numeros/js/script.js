@@ -1,10 +1,10 @@
-let num = document.getElementById('txtnum')
-let lista = document.getElementById('lista')
-let res = document.getElementById('res')
-let l = 0;
-let valores = []
+var num = document.getElementById('txtnum')
+var lista = document.getElementById('lista')
+var res = document.getElementById('res')
+var l = 0;
+var valores = []
 
-function isNumero(n){
+/* function isNumero(n){
     if(Number(n) >= 1 && Number(n) <= 100) {
         return true
     }
@@ -21,10 +21,10 @@ function inLista(n, l) {
         return false
     }
 
-}
+}*/
 
 function adicionar (){
-    if(isNumero(num.value) && !inLista(num.value)) {
+    if(num.value) {
         alert('Tudo ok')
 
     }
