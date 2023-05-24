@@ -1,4 +1,4 @@
-let num = document.getElementById('num')
+let num = document.getElementById('txtnum')
 let lista = document.getElementById('lista')
 let res = document.getElementById('res')
 let valores = []
