@@ -1,6 +1,7 @@
 let num = document.getElementById('txtnum')
 let lista = document.getElementById('lista')
 let res = document.getElementById('res')
+let l = 0;
 let valores = []
 
 function isNumero(n){
