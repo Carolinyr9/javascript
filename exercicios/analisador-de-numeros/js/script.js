@@ -24,7 +24,7 @@ function inLista(n, l) {
 }*/
 
 function adicionar (){
-    if(num.value) {
+    if(num.value > 0) {
         alert('Tudo ok')
 
     }
