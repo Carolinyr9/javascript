@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Seu numero é <span id="numTitulo">0</span></h1>
+    <div id="texto">Texto</div>
+
+    <script>
+        const num = prompt("Digite um numero: ");
+        const numTitulo = document.getElementById('numTitulo');
+        const texto = document.getElementById('texto')
+
+        numTitulo.innerHTML = num;
+
+        texto.innerHTML = `Raiz quadrada: ${Number(num) ** 0.5}<br>`;
+        texto.innerHTML += `${num} é inteiro: ${Number.isInteger(num)}<br>`;
+        texto.innerHTML += `${num} é NaN: ${Number.isNaN(num)}<br>`;
+        texto.innerHTML += `Arredondando para baixo: ${Math.floor(num)} <br>`;
+        texto.innerHTML += `Arredondando para cima: ${Math.ceil(num)} <br>`;
+
+        texto.innerHTML += `Com duas casas decimais: ${Number(num).toFixed(2)}`;
+
+
+
+    </script>
+    
+</body>
+</html>
